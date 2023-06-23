@@ -20,7 +20,7 @@ paths:
     get:
       tags:
         - Basic
-      summary: Get All Vacancies - Detailed
+      summary: Get All Vacancies
       parameters:
         - name: X-MindKey-User-Language
           in: header
