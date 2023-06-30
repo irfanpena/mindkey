@@ -12,14 +12,14 @@ tags:
   - name: Vacancy Details
   - name: Basic
   - name: Old
-  - name: Lookups
+  - name: Lookup
   - name: Job Agents
   - name: Candidates
 paths:
   /{recruiting_customer_id}/vacancies/detailed:
     get:
       tags:
-        - Test
+        - Basic
       summary: Get All Vacancies - Detailed
       parameters:
         - name: X-MindKey-User-Language
