@@ -19,7 +19,7 @@ paths:
   /{recruiting_customer_id}/vacancies/detailed:
     get:
       tags:
-        - Basic
+        - Test
       summary: Get All Vacancies - Detailed
       parameters:
         - name: X-MindKey-User-Language
